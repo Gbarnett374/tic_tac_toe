@@ -1,0 +1,74 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:columnOrderPreserved="false"
+    android:useDefaultMargins="true" >
+
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="center"
+        android:text="@string/name"
+        android:textSize="48dip" />
+
+    <Button
+        android:id="@+id/b00"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:text="@string/b00"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b01"
+        android:layout_gravity="center"
+        android:text="@string/b01"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b02"
+        android:layout_gravity="center"
+        android:text="@string/b02"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:text="@string/b10"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_gravity="center"
+        android:text="@string/b11"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b12"
+        android:layout_gravity="center"
+        android:text="@string/b12"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b20"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:text="@string/b20"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b21"
+        android:layout_gravity="center"
+        android:text="@string/b21"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b22"
+        android:layout_gravity="center"
+        android:text="@string/b22"
+        android:textSize="48sp" />
+    
+   
+
+</GridLayout><!-- From: file:/Users/gregbarnett/StudioProjects/TicTacToe/app/src/main/res/layout/activity_main.xml -->
